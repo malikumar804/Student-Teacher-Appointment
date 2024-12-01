@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apna USTAD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+        <h1>Apna USTAD</h1>
+
+        <form id="Booking Form">
+            <div class="form-group">
+                <label for="student Name">Student Name:</label>
+                <input type="text" id="student Name" placeholder="Enter Your Name" required />
+            </div>
+
+            <div class="form-group">
+                <label for="Teacher select">Select Teacher:</label>
+                <select id="Teacher select" required>
+                    <option value="">--Choose a Teacher--</option>
+                    <option value="Muhammad Asif">Muhammad Asif</option>
+                    <option value="Prof Ayaz">Prof Ayaz</option>
+                    <option value="Prof Alvina">Prof Alvina</option>
+                    <option value="Prof Sohaib">Prof Sohaib</option>
+                </select>
+            </div>
+
+            <div class="Form Group">
+                <label for="Appointment Date">Select Date:</label>
+                <input type="date" id="Appointment Date" required />
+            </div>
+
+            <div class="form-group">
+                <label for="Appointment Time">Select Time:</label>
+                <input type="Time" id="Appointment-time" required />
+            </div>
+
+            <button type="Submit" id="Submit btn">Book Appointment</button>
+        </form>
+
+        <div id="Appointment Info" class="Appointment Info">
+            <!-- Appointment details will appear here after submission -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
